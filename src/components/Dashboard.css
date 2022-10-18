@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Sans", sans-serif;
+    margin: 0 auto;
+}
+body{
+    margin: 0;
+    background: #2c3e50;
+    color: #fff;
+}
+.container-box{
+    align-items: center;
+    max-width: 960px;
+    padding: 1rem;
+    border: 1px solid #fff;
+    
+    
+}
+.container-header{
+    font-size: 2rem;
+}
+.platform{
+  padding: 20px;
+}
+.Team{
+    display: block;
+    background-color: rgb(65, 159, 253);
+    color: white;
+    padding: 1rem;
+    height: 7rem;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px;
+}
+.Mango{
+    display: block;
+    background-color: rgb(58, 205, 144);
+    color: white;
+    padding: 1rem;
+    height: 7rem;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px;
+}
+.Moodle{
+    display: block;
+    background-color: rgb(120, 110, 215);
+    color: white;
+    padding: 1rem;
+    height: 7rem;
+    border-radius: 7px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+

@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-family: "Lucida Sans", sans-serif;
+}
+body{
+    margin: 0 auto;
+    background: #2c3e50;
+    color: #fff;
+}
+.container-message{
+    margin: 3rem auto;
+    text-align: center;
+}

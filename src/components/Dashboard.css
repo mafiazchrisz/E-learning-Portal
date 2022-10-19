@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     font-family: "Lucida Sans", sans-serif;
-    margin: 0 auto;
 }
 body{
     margin: 0;
@@ -9,18 +8,21 @@ body{
     color: #fff;
 }
 .container-box{
-    align-items: center;
-    max-width: 960px;
+    display: grid;
+    gap: 1.5rem;
+    margin: 3rem auto;
+    max-width: 700px;
     padding: 1rem;
-    border: 1px solid #fff;
-    
-    
+
 }
 .container-header{
     font-size: 2rem;
 }
 .platform{
-  padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 20px;
 }
 .Team{
     display: block;
@@ -52,6 +54,6 @@ body{
     text-decoration: none;
     padding: 10px;
 }
-
-
-
+img{
+    width: 100px;
+}

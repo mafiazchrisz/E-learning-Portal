@@ -6,11 +6,24 @@ import './App.css'
 
 
 function App() {
+  let Component
+  switch(window.location.pathname){
+    case "/dashboard":
+      Component = Dashboard
+      break
+      case "/calendar":
+        Component = Calendar
+        break
+      case "/todo":
+        Component = Todo
+        break
+  }
+  
   return (
     <>
       <body>
         <Header/>
-      <Dashboard/>
+        <Component/>
       </body>
     </>
   );
